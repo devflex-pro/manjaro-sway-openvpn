@@ -1,0 +1,13 @@
+{
+  "custom/vpn": {
+    "exec":"~/vpn/vpn-status.sh",
+    "format":"{}",
+    "return-type":"json",
+    "interval": 5,
+    "on-click": "~/vpn/vpn-toggler.sh",
+    "tooltip": true
+  },
+  "include": [
+     "/usr/share/sway/templates/waybar/config.jsonc"
+  ]
+}

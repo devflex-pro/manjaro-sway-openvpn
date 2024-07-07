@@ -1,0 +1,13 @@
+@import "/usr/share/sway/templates/waybar/style.css";
+
+#custom-vpn {
+  color: #fff;
+}
+
+#custom-vpn.connected {
+  color: #00ff00;
+}
+
+#custom-vpn.disconnected {
+  color: #ff0000;
+}
